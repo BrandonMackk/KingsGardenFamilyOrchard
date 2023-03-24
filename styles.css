@@ -4,7 +4,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, black 15%, white, black);
+  background: linear-gradient(to bottom, #99badd 15%, white, #99badd);
   background-size: 150vw 110vh;
   align-items: center;
   justify-content: center;
@@ -72,10 +72,10 @@ body {
 
 .bodyParagraph {
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: black;
   font-size: 28px;
   position: absolute;
-  top: 31%;
+  top: 27%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -85,7 +85,7 @@ body {
   height: 450px;
   width: 710px;
   position: absolute;
-  top: 82%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -96,8 +96,8 @@ footer {
   left: 0;
   width: 100%;
   height: 80px;
-  background-color: black;
-  color: white;
+  background-color: #99badd;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +108,7 @@ footer p {
 }
 
 footer a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 18px;
   margin-left: 40px;
